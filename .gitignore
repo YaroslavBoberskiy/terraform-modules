@@ -1,0 +1,15 @@
+# Ignore Terraform working directory
+.terraform/
+.terragrunt-cache/
+
+# Optionally, ignore other Terraform-related files
+*.tfstate
+*.tfstate.*
+*.log
+crash.log
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*.tfplan
+.terraform.lock.hcl
